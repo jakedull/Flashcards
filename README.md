@@ -6,6 +6,7 @@ Allows the user to use a flashcards and click on the card to generate the answer
 ### App Walk-though
 <img src="https://i.imgur.com/PNdcWah.gif" width=200><br>
 
+
 ## Required
 - [x] Create New Project in Xcode
 - [x] Add a view for the front side of the flashcard to display the question

@@ -4,7 +4,7 @@
 Allows the user to use a flashcards and click on the card to generate the answer.
 
 ### App Walk-though
-<img src="https://imgur.com/a/shb57kz" width=200><br>
+<img src="file:///Users/jake/Desktop/flashcards.gif" width=200><br>
 
 ## Required
 - [x] Create New Project in Xcode

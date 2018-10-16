@@ -18,22 +18,22 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6Lu-e1-7DC">
-                                <rect key="frame" x="16" y="102" width="338" height="232"/>
+                                <rect key="frame" x="18" y="100" width="338" height="232"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sacramento" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lIb-t3-Oxh">
-                                        <rect key="frame" x="0.0" y="0.0" width="338" height="232"/>
+                                        <rect key="frame" x="0.0" y="-1" width="338" height="232"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What is the capital city of California?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o9e-gI-ycx">
-                                        <rect key="frame" x="0.0" y="0.0" width="338" height="232"/>
+                                        <rect key="frame" x="0.0" y="-1" width="338" height="232"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -44,19 +44,56 @@
                                     <outletCollection property="gestureRecognizers" destination="FGq-Mi-dBd" appends="YES" id="5S4-et-VpO"/>
                                 </connections>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EhT-sZ-Pbs">
+                                <rect key="frame" x="51" y="369" width="281" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Los Angeles">
+                                    <color key="titleColor" red="0.51047374359999997" green="0.7964743822" blue="0.95523184539999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapOne:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TDU-QC-cRk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y4a-8J-tOU">
+                                <rect key="frame" x="51" y="471" width="281" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Sacramento">
+                                    <color key="titleColor" red="0.51047374359999997" green="0.7964743822" blue="0.95523184539999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapTwo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qhm-kM-vBV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uoz-7i-TMK">
+                                <rect key="frame" x="51" y="569" width="281" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="San Francisco">
+                                    <color key="titleColor" red="0.51047374359999997" green="0.7964743822" blue="0.95523184539999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapThree:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6yU-A8-s8S"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
                         <outlet property="backlabel" destination="lIb-t3-Oxh" id="zab-HK-mKS"/>
+                        <outlet property="buttonOne" destination="EhT-sZ-Pbs" id="hWz-Xt-baJ"/>
+                        <outlet property="buttonThree" destination="uoz-7i-TMK" id="S4b-bE-TGR"/>
+                        <outlet property="buttonTwo" destination="y4a-8J-tOU" id="Rv5-xm-ju3"/>
+                        <outlet property="card" destination="6Lu-e1-7DC" id="kyU-mA-xaR"/>
                         <outlet property="frontlabel" destination="o9e-gI-ycx" id="EBm-Ce-LgG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="FGq-Mi-dBd">
                     <connections>
-                        <action selector="didTapOnFlashcard:" destination="BYZ-38-t0r" id="aLs-ad-2LR"/>
+                        <action selector="didTapOnFlashcard:" destination="BYZ-38-t0r" id="rkk-fN-Qdd"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>

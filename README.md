@@ -4,7 +4,7 @@
 Allows the user to use a flashcards and click on the card to generate the answer.
 
 ### App Walk-though
-<img src="https://i.imgur.com/PNdcWah.gif" width=200><br>
+<img src="https://i.imgur.com/JUjQcXV.gif" width=200><br>
 
 
 ## Required
@@ -14,6 +14,6 @@ Allows the user to use a flashcards and click on the card to generate the answer
 - [x] Build in logic to show the answer side when the card is tapped
 - [x] Push code to GitHub
 ## Optional
-- [ ] Toggle the flashcard between the question side and the answer side
-- [ ] Style the question and answer side of the card to better distinguish between the two sides
-- [ ] Add selectable multiple choice answers beneath the card
+- [x] Toggle the flashcard between the question side and the answer side
+- [x] Style the question and answer side of the card to better distinguish between the two sides
+- [x] Add selectable multiple choice answers beneath the card

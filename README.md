@@ -5,7 +5,7 @@
 Allows the user to use a flashcards and click on the card to generate the answer. Also allows user to answer multiple choice questions and to change the card.
 
 ### App Walk-though
-<img src="https://i.imgur.com/AgFEgMr.gifv" width=200><br>
+<img src="https://i.imgur.com/AgFEgMr.gif" width=200><br>
 
 
 ## Required

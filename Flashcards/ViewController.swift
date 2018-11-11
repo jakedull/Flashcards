@@ -18,6 +18,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var buttonOne: UIButton!
     @IBOutlet weak var buttonTwo: UIButton!
     @IBOutlet weak var buttonThree: UIButton!
+    @IBOutlet weak var buttonPlus: UIButton!
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -49,6 +52,14 @@ class ViewController: UIViewController {
         }
     }
     
+    func updateFlashcard(question: String, answer: String, xtraAnswer1: String, xtraAnswer2: String) {
+        frontlabel.text = question
+        backlabel.text = answer
+        buttonOne.setTitle(xtraAnswer1, for: .normal)
+        buttonTwo.setTitle(answer, for: .normal)
+        buttonThree.setTitle(xtraAnswer2, for: .normal)
+    }
+    
     @IBAction func didTapOne(_ sender: Any) {
         frontlabel.isHidden = false
     }
@@ -60,5 +71,13 @@ class ViewController: UIViewController {
     @IBAction func didTapThree(_ sender: Any) {
         frontlabel.isHidden = false
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?){
+        let navigationController = segue.destination as! UINavigationController
+        let creationController = navigationController.topViewController as! CreationViewController
+        creationController.flashcardsController = self
+    }
+    
+
 }
 

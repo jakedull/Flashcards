@@ -5,9 +5,7 @@
 Allows the user to use a flashcards and click on the card to generate the answer. Also allows user to answer multiple choice questions and to change the card.
 
 ### App Walk-though
-`TODO://` Add the URL to your animated app walk-though `gif` in the image tag below. Make sure the gif actually renders and animates when viewing this README. (☝️ Remove this paragraph after after adding gif)
-
-<img src="YOUR_GIF_URL_HERE" width=200><br>
+<img src="https://i.imgur.com/AgFEgMr.gifv" width=200><br>
 
 
 ## Required
